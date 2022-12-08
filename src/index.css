@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root{
+    --primary-light: #3496a3;
+    --primary-dark: #0f5963;
+}
+
+@layer base{
+    html{
+        @apply scroll-smooth
+    }
+    body{
+        @apply font-[poppins]
+    }
+    button{
+        @apply px-4 py-2 border-0 bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white
+    }
+}

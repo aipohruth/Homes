@@ -5,7 +5,7 @@ import {AiFillLinkedin} from 'react-icons/ai';
 const Navbar = () => {
 const [nav, setNav] = useState(false)
 const handleNav = () =>{
-    setNav(!nav)
+    setNav(!nav) 
 }
   return (
     <div className='w-full min-h-[50px] flex justify-between items-center pr-8 pl-4 z-10 absolute bg-black/80 text-white'>

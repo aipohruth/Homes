@@ -67,7 +67,7 @@ export const Project2 = [
         id:4,
         type: 'PentHouse',
         image: pent1,
-        location:'Port-Harcout' ,
+        location:'Port-Harcourt' ,
         name: 'PentHouse',
         text: 'A fully furnished PentHouse',
         price: '$4m'
@@ -104,7 +104,7 @@ export const Project2 = [
         id:8,
         type: 'PentHouse',
         image: pent2,
-        location:'Port-Harcout' ,
+        location:'Port-Harcourt' ,
         name: 'PentHouse',
         text: 'A fully furnished PentHouse',
         price: '$1m'
@@ -122,7 +122,7 @@ export const Project2 = [
         id:10,
         type: 'Semi-Detached',
         image: semi3,
-        location:'Port-Harcout' ,
+        location:'Port-Harcourt' ,
         name: 'Semi-Detached',
         text: 'A fully furnished Semi-Detached',
         price: '$1m'

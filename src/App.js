@@ -1,5 +1,9 @@
+import React from "react";
+import About from "./Components/About";
+import Location from "./Components/Location";
 import Navbar from "./Components/Navbar";
 import Topbar from "./Components/Topbar";
+
 
 
 function App() {
@@ -7,6 +11,8 @@ function App() {
     <div>
       <Topbar />
       <Navbar />
+      <About />
+      <Location  />
     </div>
   );
 }

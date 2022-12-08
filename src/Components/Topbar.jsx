@@ -30,12 +30,12 @@ const handleModal =() =>{
             <button onClick={() => handleModal()}>Inspection Booking</button>
           </div>
         </div>
-        <div className=' hidden sm:flex'>
+       {/*<div className=' hidden sm:flex'>
         <marquee className='text-sm text-white px-0'>Inspection starts from 10AM - 3PM</marquee>
         <marquee className='text-sm text-gray-800 px-0'>Inspection starts from 10AM - 3PM</marquee>
         <marquee className='text-sm text-white px-0'>Inspection starts from  10AM - 3PM</marquee>
         
-        </div>
+        </div>*/}
         
         {showModal  && <Modal handleModal={handleModal}/>}
        

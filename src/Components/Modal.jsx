@@ -1,10 +1,15 @@
 import React from 'react'
 
 const Modal = ({handleModal}) => {
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+    e.target.reset();
+    
+  }
   return (
     <div classname='fixed inset-0 backdrop-blur-md z-100 flex justify-center items-center'>
         <div className='bg-white w-[300px] mx-auto shadow-lg p-6 absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-center'>
-        <form>
+        <form onSubmit={handleSubmit} >
             <div className='mt-4 w-full grid grid-cols-1'>
                 <input className='border p-1  m-2 outline-none text-sm'required type="text" placeholder= 'Name' />
                 <input className='border p-1 m-2 outline-none text-sm' required type="number"  placeholder='TEL'/>

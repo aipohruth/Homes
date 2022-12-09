@@ -5,7 +5,7 @@ export const Locations =[
     {
         id:1,
         text:'Abuja',
-        image: 'https://images.pexels.com/photos/1125212/pexels-photo-1125212.jpeg?auto=compress&cs=tinysrgb&w=600'
+        image: 'https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=600'
     },
     {
         id:2,

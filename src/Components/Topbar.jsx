@@ -9,7 +9,7 @@ const Topbar = () => {
 
 
   return (
-    <div className='max-w-full  bg-red-500'>
+    <div className='max-w-full'>
      
         <div className='flex justify-between items-center px-4 py-2'>
           <div className='flex items-center'>

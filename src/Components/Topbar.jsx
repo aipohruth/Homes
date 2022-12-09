@@ -2,10 +2,16 @@ import React, {useState} from 'react';
 import {BiHomeHeart} from 'react-icons/bi';
 import {AiOutlinePhone, AiOutlineClockCircle} from 'react-icons/ai';
 import Modal from './Modal';
+/*
+
+const [showModal, setShowModal] = useState(false)
+ {showModal && <Modal setShowModal={setShowModal} /> } 
+onClick={() => setShowModal(!showModal)}
+*/
 
 
 const Topbar = () => {
-  const [showModal, setShowModal] = useState(false)
+  const [showModal, setShowModal] = useState(false);
 
 
   return (
@@ -14,7 +20,7 @@ const Topbar = () => {
         <div className='flex justify-between items-center px-4 py-2'>
           <div className='flex items-center'>
           <BiHomeHeart className='text-[#0f5963] ' size={30} />
-          <p className='text-gray-700 text-xl sm:text-3xl font-bold'>Home4All</p>
+          <p className='text-gray-700 text-xl sm:text-3xl font-bold italic'>Home4All</p>
           </div>
           <div className='flex'>
             <div className='hidden md:flex items-center px-6 cursor-pointer'>
@@ -25,7 +31,7 @@ const Topbar = () => {
               <AiOutlineClockCircle  size={25} className='mr-2 text-[#0f5963]' />
               <p className='text-gray-700 text-sm'>8AM - 4PM</p>
             </div>
-            <button  onClick={() => setShowModal(!showModal)} className='text-sm'>Inspection Booking</button>
+            <button onClick={() => setShowModal(!showModal)}   className='text-sm'>Inspection Booking</button>
           </div>
         </div>
        {/*<div className=' hidden sm:flex'>
@@ -35,7 +41,8 @@ const Topbar = () => {
         
         </div>*/}
         
-        {showModal && <Modal setShowModal={setShowModal} /> } 
+       
+       {showModal && <Modal setShow={setShowModal} />}
        
         </div>
         

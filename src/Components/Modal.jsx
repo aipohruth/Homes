@@ -1,15 +1,16 @@
 import React from 'react'
-//flex justify-center items-center 
-const Modal = ({setShowModal}) => {
+
+const Modal = ({setShow}) => {
   const handleSubmit = (e) =>{
     e.preventDefault();
     e.target.reset();
   }
+  
+
   return (
-    <div classname='fixed inset-0 backdrop-blur-md z-10 '>
-        <div className='bg-white w-[300px] mx-auto shadow-lg p-6 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] '>
-          <div>
-        <form onSubmit={handleSubmit} >
+    <div className='fixed inset-0 backdrop-blur-sm z-40 flex justify-center items-center'>
+      <div className=' bg-white w-[300px] shadow-lg relative mx-auto p-6'>
+      <form onSubmit={handleSubmit}  >
             <div className='mt-4 w-full grid grid-cols-1'>
                 <input className='border p-1  m-2 outline-none text-sm'required type="text" placeholder= 'Name' />
                 <input className='border p-1 m-2 outline-none text-sm' required type="number"  placeholder='Tel'/>
@@ -26,13 +27,54 @@ const Modal = ({setShowModal}) => {
             </div>
         </form>
         <div className='absolute top-2 right-4 '>
-        <button className='px-2 py-1 rounded-lg' onClick={() => setShowModal(false)}>X</button>
+        <button className='px-2 py-1 rounded-lg' onClick={() => setShow(false)}>X</button>
         </div>
-        </div>
-        </div>
-     
+      </div>
     </div>
   )
 }
 
 export default Modal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

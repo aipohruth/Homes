@@ -9,6 +9,7 @@ import det3 from '../Assets/detached3.jpg';
 import semi1 from '../Assets/semi1.jpg';
 import semi2 from '../Assets/semi2.jpg';
 import semi3 from '../Assets/semi3.jpg';
+import ddd from '../Assets/ddd.jpg';
 
 import pent1  from '../Assets/pent1.jpg';
 import pent2  from '../Assets/pent2.jpg';
@@ -21,18 +22,19 @@ export const Project1 =[
         image: dup1,
         text: 'Nigeria'
     },
+   
     {
         id:2,
-        name: 'Semi-Detached',
-        image: det1,
+        name: 'Detached',
+        image: ddd,
         text: 'Nigeria'
     },
     {
         id:3,
-        name: 'Detached',
-        image: semi1,
+        name: 'Semi-Detached',
+        image: det1,
         text: 'Nigeria'
-    },
+    }
 ];
 
 export const Project2 = [

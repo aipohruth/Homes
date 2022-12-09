@@ -8,7 +8,7 @@ const handleNav = () =>   {
     setNav(!nav) 
 }
   return (
-    <div className='w-full min-h-[50px] flex justify-between items-center pr-8 pl-4 z-20 absolute bg-black/80 text-white'>
+    <div className='w-full min-h-[50px] flex justify-between items-center pr-8 pl-4 z-20 absolute bg-black text-white'>
          <ul className='hidden sm:flex'>
                     <li><a href="/" className='hover:text-red-500'>Home</a></li>
                     <li><a href="#location" className='hover:text-red-500'>Locations</a></li>

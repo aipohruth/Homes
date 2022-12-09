@@ -4,7 +4,7 @@ import  {Locations} from '../Data/Data3';
 
 const Location = () => {
   return (
-    <div className='max-w-[1200px] flex flex-col sm:flex-row m-auto w-full mt-[-50px]'>
+    <div className='max-w-[1200px] flex flex-col sm:flex-row m-auto w-full mt-[-70px]'>
    {Locations.map((info,id) => {
     const {image, text} = info;
     return (<div className='relative p-4'>

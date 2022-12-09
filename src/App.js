@@ -2,6 +2,7 @@ import React from "react";
 import About from "./Components/About";
 import Location from "./Components/Location";
 import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
 import Topbar from "./Components/Topbar";
 
 
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <About />
       <Location  />
+      <Projects />
     </div>
   );
 }

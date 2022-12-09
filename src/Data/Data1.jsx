@@ -1,37 +1,37 @@
-import {dup1} from '../Assets/duplex1.jpg';
-import {dup2} from '../Assets/duplex2.jpg';
-import {dup3} from '../Assets/duplex3.jpg';
+import dup1 from '../Assets/duplex1.jpg';
+import dup2 from '../Assets/duplex2.jpg';
+import dup3 from '../Assets/duplex3.jpg';
 
-import {det1} from '../Assets/detached1.jpg';
-import {det2} from '../Assets/detached2.jpg';
-import {det3} from '../Assets/detached3.jpg';
+import det1 from '../Assets/detached1.jpg';
+import det2 from '../Assets/detached2.jpg';
+import det3 from '../Assets/detached3.jpg';
 
-import {semi1} from '../Assets/semi1.jpg';
-import {semi2} from '../Assets/semi2.jpg';
-import {semi3} from '../Assets/semi3.jpg';
+import semi1 from '../Assets/semi1.jpg';
+import semi2 from '../Assets/semi2.jpg';
+import semi3 from '../Assets/semi3.jpg';
 
-import {pent1} from '../Assets/pent1.jpg';
-import {pent2} from '../Assets/pent2.jpg';
-import {pent3} from '../Assets/pent3.jpg';
+import pent1  from '../Assets/pent1.jpg';
+import pent2  from '../Assets/pent2.jpg';
+import pent3 from '../Assets/pent3.jpg';
 
 export const Project1 =[
     {
         id:1,
         name: 'Duplex',
         image: dup1,
-        text: 'Fully Funished across Nigeria'
+        text: 'Nigeria'
     },
     {
         id:2,
         name: 'Semi-Detached',
         image: det1,
-        text: 'Fully Funished across Nigeria'
+        text: 'Nigeria'
     },
     {
         id:3,
         name: 'Detached',
         image: semi1,
-        text: 'Fully Funished across Nigeria'
+        text: 'Nigeria'
     },
 ];
 

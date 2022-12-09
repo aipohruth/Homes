@@ -20,7 +20,7 @@ const Topbar = () => {
         <div className='flex justify-between items-center px-4 py-2'>
           <div className='flex items-center'>
           <BiHomeHeart className='text-[#0f5963] ' size={30} />
-          <p className='text-gray-700 text-xl sm:text-3xl font-bold italic'>Home4All</p>
+          <p className='text-gray-700 text-xl sm:text-3xl font-bold'>Home4All</p>
           </div>
           <div className='flex'>
             <div className='hidden md:flex items-center px-6 cursor-pointer'>

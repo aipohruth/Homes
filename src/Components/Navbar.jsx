@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import {FaBars, FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
-import {AiFillLinkedin} from 'react-icons/ai';
+import {AiFillLinkedin, AiFillCloseSquare} from 'react-icons/ai';
+
 
 const Navbar = () => {
 const [nav, setNav] = useState(false)
@@ -25,7 +26,8 @@ const handleNav = () =>   {
             </div>
 
             <div className='sm:hidden z-10' >
-            <FaBars onClick={() => handleNav()}  size={30} />
+           {nav ?<AiFillCloseSquare onClick={() => handleNav()}  size={30} />:
+           <FaBars onClick={() => handleNav()}  size={30} /> }
             </div>
             <div className={nav ?'overflow-y-hidden md:hidden  ease-in px-4 py-7 flex flex-col w-full duration-300 text-gray-300 absolute left-0 top-0 h-screen bg-black': 'absolute top-0 h-screen left-[-100%] ease-in duration-500' }>
             <ul className='text-center pt-8 w-full h-full' >

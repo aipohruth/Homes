@@ -5,11 +5,9 @@ import Modal from './Modal';
 
 
 const Topbar = () => {
-const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false)
 
-const handleModal =() =>{
-  setShowModal(!showModal)
-}
+
   return (
     <div className='max-w-full  bg-red-500'>
      
@@ -27,7 +25,7 @@ const handleModal =() =>{
               <AiOutlineClockCircle  size={25} className='mr-2 text-[#0f5963]' />
               <p className='text-gray-700 text-sm'>8AM - 4PM</p>
             </div>
-            <button onClick={() => handleModal()} className='text-sm'>Inspection Booking</button>
+            <button  onClick={() => setShowModal(!showModal)} className='text-sm'>Inspection Booking</button>
           </div>
         </div>
        {/*<div className=' hidden sm:flex'>
@@ -37,7 +35,7 @@ const handleModal =() =>{
         
         </div>*/}
         
-        {showModal  && <Modal handleModal={handleModal}/>}
+        {showModal && <Modal setShowModal={setShowModal} /> } 
        
         </div>
         

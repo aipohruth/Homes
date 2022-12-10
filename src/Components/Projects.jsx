@@ -6,7 +6,7 @@ import  {Project1}  from '../Data/Data1';
 
 const Projects = () => {
   return (
-    <div className='max-w-[1200px] m-auto p-4 my-9'>
+    <div id='projects' className='max-w-[1200px] m-auto p-4 my-9'>
         <div className='flex justify-center items-center'>
             < SiCodeproject size={25}  className='text-gray-700'  />
       <h1 className='text-center text-gray-700 font-medium border-b-2 border-b-[var(--primary-light)]  text-3xl'>Our Projects</h1>
